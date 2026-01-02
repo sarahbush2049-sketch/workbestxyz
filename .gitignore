@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+.next/
+out/
+dist/
+.wrangler/
+.open-next/
+.dev.vars
+.wrangler.toml
+wrangler.toml
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# Misc
+*.tsbuildinfo
