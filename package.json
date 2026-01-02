@@ -1,0 +1,21 @@
+{
+  "name": "workbest",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "build": "bun run --filter '*' build",
+    "lint": "bun run --filter '*' lint",
+    "test": "bun run --filter '*' test"
+  },
+  "devDependencies": {
+    "@cloudflare/workerd-darwin-arm64": "^1.20251213.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "zod": "^4.2.1"
+  }
+}
